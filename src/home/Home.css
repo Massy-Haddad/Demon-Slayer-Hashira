@@ -423,11 +423,12 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 /* Style text tooltip */
 .tooltipText {
+  color: var(--text-primary);
   background-color: #fff;
   position: absolute;
   padding: 6px 9px;
