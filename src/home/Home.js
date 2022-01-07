@@ -50,7 +50,7 @@ function Home(props) {
           <div className="ultimate-skill">
             <div className="video">
               <BsFillPlayFill className="icon" />
-              <img className="video-preview" src={ultimate} />
+              <img className="video-preview" src={ultimate} alt="Video" />
             </div>
             <div className="details bottom-right-cut">
               <div>
@@ -69,7 +69,11 @@ function Home(props) {
           <div className="ultimate-skill">
             <div className="breathing-overview">
               <div className="breathing">
-                <img className="breathing-logo" src={demonslayer} />
+                <img
+                  className="breathing-logo"
+                  src={demonslayer}
+                  alt="Fire Breathing"
+                />
                 <h2>Fire breathing</h2>
                 <h3>technique</h3>
               </div>
@@ -86,16 +90,20 @@ function Home(props) {
               </div>
             </div>
 
-            <img className="katana" src={katana} />
+            <img className="katana" src={katana} alt="Katana Nichirin" />
           </div>
         </div>
       </div>
 
       <div className="character-section">
         <div className="character">
-          <img className="character-logo" src={demonslayer} />
+          <img
+            className="character-logo"
+            src={demonslayer}
+            alt="Demon Slayer"
+          />
 
-          <img className="character-img" src={rengoku} />
+          <img className="character-img" src={rengoku} alt="Rengoku" />
 
           <div className="ag-smoke-1 selector">
             <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-smoke-img/images/smoke-4.png" />
