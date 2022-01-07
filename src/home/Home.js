@@ -17,6 +17,8 @@ import rengoku from "../img/characters/rengoku.png";
 import ultimate from "../img/characters/rengoku-ultimate.png";
 import katana from "../img/characters/rengoku-katana.png";
 
+import fog from "../img/fog/smoke-4.png";
+
 function Home(props) {
   return (
     <div className="home">
@@ -106,7 +108,7 @@ function Home(props) {
           <img className="character-img" src={rengoku} alt="Rengoku" />
 
           <div className="ag-smoke-1 selector">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-smoke-img/images/smoke-4.png" />
+            <img src={fog} alt="Fog" />
           </div>
         </div>
 
